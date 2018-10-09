@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registro de Usuario</title>
+
+<style>
+	h1{
+	color:red
+	}
+</style>
+
+</head>
+<body>
+	<h1>Registro de Usario</h1>
+
+	<form action="" method="post">
+		Nombre de Usuario:<br> <input type="text" placeholder="ingrese nombre de usuario" id="usuario" name="usuario" ><br>
+		Contraseña:<br> <input type="password" placeholder="ingrese contraseña" id="usuario" name="pass"> <br>
+		<br>
+		Email: <input type="email" name="email"><br>
+		Teléfono: <input type="tel" name="tel"> <br>
+		Sitio Favorito: <input tpe="url" name="sitio"> <br>
+		Edad: <input type="number" name="edad"> <br>
+		
+		<h3>Elija Localidades de referencia</h3>
+
+
+		<ul>
+			<li><input type="checkbox" name="locallidad" value="ba"> Buenos Aires <br>
+			<li><input type="checkbox" name="locallidad" value="ros"> Rosario <br>
+			<li><input type="checkbox" name="locallidad" value="sm"> San Miguel <br>
+			<li><input type="checkbox" name="locallidad" value="pa"> Parana <br>		
+		</ul>
+
+<!--  --------------------------------CHECKBOX OPTION---------------------------------------------------
+		<input type="checkbox" name="location1" value="buenosAires"> Buenos Aires<br> 
+		<input type="checkbox" name="location2" value="tucuman"> Tucumán<br> 
+		<input type="checkbox" name="location3" value="moon" > The dark side of the moon<br>
+		<input type="checkbox" name="location4" value="sun" > The bright side of the sun<br>
+		<input type="checkbox" name="location" value="Camboya" > Camboya<br>
+-->		
+		
+		<br> <input type="submit" name="submit" value="Registrarse">
+		<BUTTON>Cancelar</BUTTON>
+	</form>
+
+</body>
+</html>
